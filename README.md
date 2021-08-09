@@ -1,2 +1,2 @@
 # ChoiceCoin.github.io
-Choice Choin Public Website
+Choice Coin Public Website
