@@ -20,6 +20,41 @@ COOL BUTTONS
   transform: translateY(-6px);
 }
 
+/* NAVBAR STYLES */
+  #nav-header {
+    margin: 0;
+    padding: 0;
+  }
+
+  #nav-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+
+  #main-logo>img {
+    margin-right: 10px;
+  }
+
+  #navbarCollapse {
+    padding-left: 450px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  #navbarCollapse>div>.nav-item {
+    margin-right: 30px;
+  }
+
+  @media only screen and (max-width: 1140px) {
+    #navbarCollapse {
+      padding-left: 250px;
+    }
+  }
+
+
 /*
 CLOSED INCENTIVE OVERLAY
 */
