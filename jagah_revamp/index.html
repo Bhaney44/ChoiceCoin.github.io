@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="./assets/choice-icon.png"
+      type="image/png"
+      sizes="16x16"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Mulish:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css//swiper.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Choice</title>
+  </head>
+  <body>
+    <header id="header" class="fixed-top">
+      <nav class="navbar navbar-expand-xl navbar-light bg-white">
+        <div class="container-fluid px-md-5">
+          <a class="navbar-brand my-auto" href="/">
+            <img src="./assets/choice-logo.svg" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler border-0 nav-toggle-btn"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            id="burger"
+          >
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul
+              class="navbar-nav ml-auto align-items-center justify-content-center"
+            >
+              <li class="nav-item active">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/research.html">Research</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://choice-coin.gitbook.io/choice-coin-docs/getting-started/introduction"
+                  >Docs</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/participate.html"
+                  >Participate</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="first-part">
+        <div class="timer-wrapper">
+          <div
+            class="container d-flex text-center align-items-center justify-content-md-between flex-column flex-md-row justify-content-center"
+          >
+            <p id="text">Voting is live on Choice coin DAO</p>
+            <!-- <div class="timer d-none" id="time">
+              <div class="day">
+                <h3 id="days"></h3>
+                <small>DAYS</small>
+              </div>
+              <div class="hour">
+                <h3 id="hrs"></h3>
+                <small>HRS</small>
+              </div>
+              <div class="min">
+                <h3 id="min"></h3>
+                <small>MIN</small>
+              </div>
+            </div> -->
+            <a href="https://decentralized-decisions.app" id="goto" class="goto"
+              >Go to App
+              <svg
+                width="14"
+                height="15"
+                viewBox="0 0 14 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13 1.5L1 13.5"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M13 11.5V1.5H3"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="inner-wrapper">
+          <h2>A Democratic Token for a New Age</h2>
+          <p class="container">
+            Choice Coin is an Algorand Standard Asset that powers Decentralized
+            Decisions, a voting and governance software built directly on the
+            Algorand Blockchain. Decentralized Decisions enables organizations
+            to make governance decisions in an open and decentralized manner.
+            For the Choice Coin DAO, Decentralized Decisions leverages
+            Proof-of-Participation as a governance mechanism, allowing voters to
+            have a larger say in direct proportion to their contribution to the
+            network.
+          </p>
+          <div class="button-group">
+            <a
+              href="https://fortiorblockchain.com/"
+              class="btn link-btn mr-0 mr-md-4 outline"
+              >Learn About Fortior</a
+            >
+            <a
+              href="https://github.com/ChoiceCoin/White_Paper"
+              class="btn link-btn fill"
+              >Choice Coin White Paper</a
+            >
+            <a
+              href="https://app.tinyman.org/#/swap?asset_in=0&asset_out=297995609"
+              class="btn link-btn ml-0 ml-md-4 outline"
+              >View on TinyMan</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="pt-5 promotion">
+        <div class="inner container">
+          <h3>Promoting Democracy and Decentralization</h3>
+          <div class="row mx-auto cards-wrapper">
+            <div class="col col-md-6 col-lg-4 mt-4">
+              <div class="each-card">
+                <img src="./assets/decentralized.svg" alt="" />
+                <h4>Decentralized Voting</h4>
+                <p>
+                  Choice Coin powers Decentralized Voting Technology that will
+                  define governance for the next generation.
+                </p>
+              </div>
+            </div>
+            <div class="col col-md-6 col-lg-4 mt-4">
+              <div class="each-card">
+                <img src="./assets/validate.svg" alt="" />
+                <h4>Participatory Validation</h4>
+                <p>
+                  Holders of Choice Coin can immediately vote on allocations for
+                  the network, which will help democratic causes and
+                  organizations.
+                </p>
+              </div>
+            </div>
+            <div class="col col-md-6 col-lg-4 mt-4">
+              <div class="each-card">
+                <img src="./assets/open.svg" alt="" />
+                <h4>Open Development</h4>
+                <p>
+                  The Choice Coin Network is entirely open source, and all
+                  participants can develop openly on both Choice Coin and its
+                  voting protocol.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="link-read">
+            <a href="https://choice-coin.com/documentation.html">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="growing">
+        <div class="inner container">
+          <div class="row mx-auto my-4 top">
+            <div class="col-lg-7">
+              <h2>A Growing Community</h2>
+              <img
+                class="d-lg-none my-4"
+                style="width: 100%; margin: auto"
+                src="./assets/grow.svg"
+                alt=""
+              />
+              <p>
+                The Choice Coin community is rapidly expanding thanks to our
+                engagement and incentive programs. As this open-source project
+                continues to grow, we look forward to building the new age of
+                decentralized governance. Learn more about Choice Coin by
+                checking out our Github Repos, Participation incentives,
+                Official blog, and Documentation below.
+              </p>
+            </div>
+            <div class="col-md-5 d-none d-lg-block">
+              <img src="./assets/grow.svg" alt="" />
+            </div>
+          </div>
+          <div class="repos">
+            <div class="row mx-auto" id="dynamic"></div>
+          </div>
+        </div>
+      </div>
+      <div class="other-links">
+        <a href="https://choice-coin.com/participation.html">Get Involved</a>
+        <a href="https://medium.com/@ChoiceCoin">Choice Coin Blog</a>
+        <a
+          href="https://choice-coin.gitbook.io/choice-coin-docs/getting-started/introduction"
+          >Choice Coin Docs</a
+        >
+      </div>
+      <div class="py-5 container swiper-container-wrapper">
+        <h2>Testimonials</h2>
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div
+              class="d-flex align-items-center justify-content-center swiper-slide"
+            >
+              <div class="inner-slide w-75">
+                <h5>Blessing Akujobi</h5>
+                <p>
+                  I received extra Choice coin plus my original choice coin used
+                  for voting.
+                </p>
+              </div>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-center swiper-slide"
+            >
+              <div class="inner-slide w-75">
+                <h5>Excellent Mbah</h5>
+                <p>Their community is organized.</p>
+              </div>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-center swiper-slide"
+            >
+              <div class="inner-slide w-75">
+                <h5>Afeez quadri</h5>
+                <p>
+                  I dedicated 800 choice and i received 1,800 choice, which was
+                  fair enough
+                </p>
+              </div>
+            </div>
+            ...
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="icons">
+        <a href="">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M23.6425 4.93695C22.8075 5.30695 21.9105 5.55696 20.9675 5.66996C21.9405 5.08775 22.6685 4.17142 23.0155 3.09195C22.1014 3.63494 21.1009 4.01715 20.0575 4.22196C19.3559 3.47282 18.4266 2.97628 17.4138 2.80943C16.4011 2.64258 15.3616 2.81475 14.4568 3.29921C13.5519 3.78367 12.8323 4.55332 12.4097 5.48866C11.9871 6.424 11.8851 7.4727 12.1195 8.47195C10.2672 8.37895 8.45515 7.8975 6.80095 7.05886C5.14674 6.22022 3.68736 5.04312 2.51752 3.60396C2.11752 4.29396 1.88752 5.09396 1.88752 5.94596C1.88708 6.71295 2.07596 7.4682 2.4374 8.14469C2.79885 8.82118 3.32168 9.39799 3.95952 9.82396C3.2198 9.80042 2.4964 9.60054 1.84952 9.24095V9.30095C1.84945 10.3767 2.22156 11.4193 2.90271 12.252C3.58386 13.0846 4.53209 13.6559 5.58652 13.869C4.90031 14.0547 4.18086 14.082 3.48252 13.949C3.78002 14.8746 4.35952 15.684 5.13989 16.2639C5.92026 16.8438 6.86244 17.1651 7.83452 17.183C6.18436 18.4784 4.14641 19.181 2.04852 19.178C1.6769 19.1781 1.3056 19.1564 0.936523 19.113C3.066 20.4821 5.54486 21.2088 8.07652 21.206C16.6465 21.206 21.3315 14.108 21.3315 7.95195C21.3315 7.75196 21.3265 7.54995 21.3175 7.34995C22.2288 6.69093 23.0154 5.87485 23.6405 4.93995L23.6425 4.93695Z"
+              fill="white"
+            />
+          </svg>
+        </a>
+        <a href="">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_81_331)">
+              <path
+                d="M20.3175 4.49197C18.7875 3.80197 17.1475 3.29197 15.4325 3.00197C15.4172 2.99904 15.4014 3.00093 15.3872 3.00738C15.3731 3.01383 15.3613 3.02452 15.3535 3.03797C15.1435 3.40697 14.9095 3.88797 14.7455 4.26797C12.9266 3.99621 11.0774 3.99621 9.25848 4.26797C9.07582 3.84683 8.86983 3.4362 8.64148 3.03797C8.63374 3.02436 8.62203 3.01342 8.60792 3.00663C8.5938 2.99984 8.57795 2.99752 8.56248 2.99997C6.84848 3.28997 5.20848 3.79997 3.67748 4.49097C3.66431 4.4965 3.65314 4.50592 3.64548 4.51797C0.533481 9.09297 -0.319519 13.555 0.0994806 17.961C0.100647 17.9718 0.103996 17.9822 0.109326 17.9917C0.114655 18.0011 0.121853 18.0094 0.130481 18.016C1.94687 19.3384 3.97282 20.3458 6.12348 20.996C6.13847 21.0006 6.15451 21.0006 6.16949 20.9959C6.18448 20.9913 6.19772 20.9823 6.20748 20.97C6.66948 20.35 7.08148 19.695 7.43348 19.007C7.45448 18.967 7.43448 18.919 7.39248 18.903C6.74649 18.6597 6.12057 18.3661 5.52048 18.025C5.5097 18.0188 5.50061 18.0101 5.49404 17.9995C5.48746 17.989 5.48361 17.977 5.48281 17.9646C5.48202 17.9522 5.48432 17.9398 5.48949 17.9286C5.49467 17.9173 5.50257 17.9075 5.51248 17.9C5.63848 17.807 5.76448 17.71 5.88448 17.613C5.89528 17.6043 5.90829 17.5987 5.92206 17.5969C5.93584 17.5952 5.94983 17.5973 5.96248 17.603C9.88948 19.367 14.1425 19.367 18.0235 17.603C18.0362 17.5969 18.0503 17.5946 18.0643 17.5961C18.0782 17.5977 18.0915 17.6032 18.1025 17.612C18.2225 17.71 18.3475 17.807 18.4745 17.9C18.4845 17.9073 18.4925 17.917 18.4979 17.9282C18.5032 17.9394 18.5057 17.9517 18.5051 17.9641C18.5045 17.9765 18.5008 17.9885 18.4945 17.9991C18.4881 18.0098 18.4791 18.0186 18.4685 18.025C17.8705 18.369 17.2485 18.66 16.5955 18.902C16.5855 18.9056 16.5763 18.9114 16.5687 18.9188C16.561 18.9263 16.5551 18.9353 16.5512 18.9452C16.5473 18.9551 16.5456 18.9658 16.5462 18.9764C16.5467 18.9871 16.5496 18.9975 16.5545 19.007C16.9145 19.694 17.3265 20.348 17.7795 20.969C17.7889 20.9817 17.802 20.9912 17.8171 20.9963C17.8321 21.0013 17.8483 21.0015 17.8635 20.997C20.0178 20.3486 22.0471 19.3407 23.8655 18.016C23.8744 18.0098 23.8818 18.0017 23.8873 17.9924C23.8928 17.9831 23.8963 17.9727 23.8975 17.962C24.3975 12.868 23.0595 8.44197 20.3485 4.51997C20.3418 4.50723 20.3308 4.49729 20.3175 4.49197ZM8.02048 15.278C6.83848 15.278 5.86348 14.209 5.86348 12.898C5.86348 11.586 6.81948 10.518 8.02048 10.518C9.23048 10.518 10.1965 11.595 10.1775 12.898C10.1775 14.21 9.22148 15.278 8.02048 15.278ZM15.9955 15.278C14.8125 15.278 13.8385 14.209 13.8385 12.898C13.8385 11.586 14.7935 10.518 15.9955 10.518C17.2055 10.518 18.1715 11.595 18.1525 12.898C18.1525 14.21 17.2065 15.278 15.9955 15.278Z"
+                fill="white"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_81_331">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </a>
+        <a href="">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M12 0C5.37 0 0 5.37 0 12C0 17.31 3.435 21.795 8.205 23.385C8.805 23.49 9.03 23.13 9.03 22.815C9.03 22.53 9.015 21.585 9.015 20.58C6 21.135 5.22 19.845 4.98 19.17C4.845 18.825 4.26 17.76 3.75 17.475C3.33 17.25 2.73 16.695 3.735 16.68C4.68 16.665 5.355 17.55 5.58 17.91C6.66 19.725 8.385 19.215 9.075 18.9C9.18 18.12 9.495 17.595 9.84 17.295C7.17 16.995 4.38 15.96 4.38 11.37C4.38 10.065 4.845 8.985 5.61 8.145C5.49 7.845 5.07 6.615 5.73 4.965C5.73 4.965 6.735 4.65 9.03 6.195C9.99 5.925 11.01 5.79 12.03 5.79C13.05 5.79 14.07 5.925 15.03 6.195C17.325 4.635 18.33 4.965 18.33 4.965C18.99 6.615 18.57 7.845 18.45 8.145C19.215 8.985 19.68 10.05 19.68 11.37C19.68 15.975 16.875 16.995 14.205 17.295C14.64 17.67 15.015 18.39 15.015 19.515C15.015 21.12 15 22.41 15 22.815C15 23.13 15.225 23.505 15.825 23.385C18.2072 22.5807 20.2772 21.0497 21.7437 19.0074C23.2101 16.965 23.9993 14.5143 24 12C24 5.37 18.63 0 12 0Z"
+              fill="white"
+            />
+          </svg>
+        </a>
+        <a href="">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.36 14C16.44 13.34 16.5 12.68 16.5 12C16.5 11.32 16.44 10.66 16.36 10H19.74C19.9 10.64 20 11.31 20 12C20 12.69 19.9 13.36 19.74 14H16.36ZM14.59 19.56C15.19 18.45 15.65 17.25 15.97 16H18.92C17.9512 17.6683 16.4141 18.932 14.59 19.56ZM14.34 14H9.66C9.56 13.34 9.5 12.68 9.5 12C9.5 11.32 9.56 10.65 9.66 10H14.34C14.43 10.65 14.5 11.32 14.5 12C14.5 12.68 14.43 13.34 14.34 14ZM12 19.96C11.17 18.76 10.5 17.43 10.09 16H13.91C13.5 17.43 12.83 18.76 12 19.96ZM8 8H5.08C6.03886 6.32721 7.5748 5.06149 9.4 4.44C8.8 5.55 8.35 6.75 8 8ZM5.08 16H8C8.35 17.25 8.8 18.45 9.4 19.56C7.57862 18.9317 6.04485 17.6677 5.08 16ZM4.26 14C4.1 13.36 4 12.69 4 12C4 11.31 4.1 10.64 4.26 10H7.64C7.56 10.66 7.5 11.32 7.5 12C7.5 12.68 7.56 13.34 7.64 14H4.26ZM12 4.03C12.83 5.23 13.5 6.57 13.91 8H10.09C10.5 6.57 11.17 5.23 12 4.03ZM18.92 8H15.97C15.657 6.76146 15.1936 5.5659 14.59 4.44C16.43 5.07 17.96 6.34 18.92 8ZM12 2C6.47 2 2 6.5 2 12C2 14.6522 3.05357 17.1957 4.92893 19.0711C5.85752 19.9997 6.95991 20.7362 8.17317 21.2388C9.38642 21.7413 10.6868 22 12 22C14.6522 22 17.1957 20.9464 19.0711 19.0711C20.9464 17.1957 22 14.6522 22 12C22 10.6868 21.7413 9.38642 21.2388 8.17317C20.7362 6.95991 19.9997 5.85752 19.0711 4.92893C18.1425 4.00035 17.0401 3.26375 15.8268 2.7612C14.6136 2.25866 13.3132 2 12 2Z"
+              fill="white"
+            />
+          </svg>
+        </a>
+      </div>
+      <div class="copyright">&copy; Choice Coin 2021</div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/header.js"></script>
+    <script>
+      const cardsContainer = document.getElementById("dynamic");
+
+      const chosen = [
+        "ChoiceCoin.github.io",
+        "Voting",
+        "Choice-V1",
+        "Smart_Contracts",
+      ];
+      fetch("https://api.github.com/users/ChoiceCoin/repos")
+        .then((res) => res.json())
+        .then((data) => {
+          let real = data.filter((each) => chosen.includes(each.name));
+          console.log(real);
+          real.map((each) => {
+            cardsContainer.innerHTML += `
+            <div class="col col-lg-6 mt-4">
+              <div class="each-card">
+                <div class="header">
+                  <h3 class="text-truncate mr-4">${each.name}</h3>
+                  <p>${each.language}</p>
+                </div>
+                <div class="body">
+                  <div class="left">
+                    <p>
+                     ${each.description}
+                    </p>
+                    <div class="right d-md-none">
+                      <div class="share">
+                        <svg
+                          width="16"
+                          height="21"
+                          viewBox="0 0 16 21"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M13 4.32709C12.3065 4.32755 11.6345 4.56829 11.0985 5.00833C10.5625 5.44838 10.1954 6.06055 10.0599 6.7407C9.92431 7.42085 10.0286 8.12696 10.355 8.73889C10.6813 9.35083 11.2097 9.83078 11.85 10.0971C11.6978 10.462 11.4408 10.7737 11.1115 10.9926C10.7822 11.2115 10.3954 11.3279 10 11.3271H6.00001C5.29505 11.33 4.604 11.5235 4.00001 11.8871V6.14709C4.66722 5.9112 5.22956 5.44702 5.58764 4.83661C5.94571 4.2262 6.07647 3.50885 5.9568 2.81136C5.83713 2.11386 5.47473 1.48113 4.93367 1.02499C4.3926 0.568844 3.70769 0.318665 3.00001 0.318665C2.29232 0.318665 1.60741 0.568844 1.06635 1.02499C0.525277 1.48113 0.162882 2.11386 0.0432106 2.81136C-0.0764607 3.50885 0.0542974 4.2262 0.412375 4.83661C0.770452 5.44702 1.33279 5.9112 2.00001 6.14709V14.5071C1.34099 14.7441 0.785665 15.2042 0.430256 15.8076C0.074848 16.4111 -0.0582406 17.1199 0.0540553 17.8111C0.166351 18.5024 0.516954 19.1326 1.0451 19.5925C1.57325 20.0524 2.24567 20.3131 2.94581 20.3293C3.64596 20.3455 4.32971 20.1162 4.87857 19.6813C5.42744 19.2463 5.80683 18.633 5.95099 17.9476C6.09515 17.2623 5.995 16.5481 5.6679 15.9289C5.34079 15.3096 4.80735 14.8243 4.16001 14.5571C4.31158 14.1937 4.56704 13.8832 4.89436 13.6644C5.22168 13.4456 5.60629 13.3282 6.00001 13.3271H10C10.9148 13.3269 11.802 13.0131 12.5135 12.4381C13.225 11.8631 13.7179 11.0615 13.91 10.1671C14.5786 9.93992 15.1456 9.4842 15.5113 8.88014C15.8769 8.27608 16.0178 7.56239 15.9091 6.86469C15.8004 6.167 15.449 5.53001 14.9169 5.06584C14.3848 4.60167 13.706 4.34007 13 4.32709ZM3.00001 2.32709C3.19779 2.32709 3.39113 2.38574 3.55558 2.49562C3.72003 2.6055 3.8482 2.76168 3.92389 2.94441C3.99957 3.12713 4.01938 3.3282 3.98079 3.52218C3.94221 3.71616 3.84697 3.89435 3.70711 4.0342C3.56726 4.17405 3.38908 4.26929 3.1951 4.30788C3.00112 4.34646 2.80005 4.32666 2.61732 4.25097C2.4346 4.17528 2.27842 4.04711 2.16854 3.88266C2.05866 3.71821 2.00001 3.52487 2.00001 3.32709C2.00001 3.06188 2.10536 2.80752 2.2929 2.61999C2.48044 2.43245 2.73479 2.32709 3.00001 2.32709ZM3.00001 18.3271C2.80222 18.3271 2.60889 18.2684 2.44444 18.1586C2.27999 18.0487 2.15181 17.8925 2.07613 17.7098C2.00044 17.5271 1.98064 17.326 2.01922 17.132C2.05781 16.938 2.15305 16.7598 2.2929 16.62C2.43275 16.4801 2.61093 16.3849 2.80492 16.3463C2.9989 16.3077 3.19996 16.3275 3.38269 16.4032C3.56542 16.4789 3.72159 16.6071 3.83148 16.7715C3.94136 16.936 4.00001 17.1293 4.00001 17.3271C4.00001 17.5923 3.89465 17.8467 3.70711 18.0342C3.51958 18.2217 3.26522 18.3271 3.00001 18.3271ZM13 8.32709C12.8022 8.32709 12.6089 8.26844 12.4444 8.15856C12.28 8.04868 12.1518 7.8925 12.0761 7.70977C12.0004 7.52705 11.9806 7.32598 12.0192 7.132C12.0578 6.93802 12.153 6.75984 12.2929 6.61998C12.4328 6.48013 12.6109 6.38489 12.8049 6.34631C12.9989 6.30772 13.2 6.32753 13.3827 6.40321C13.5654 6.4789 13.7216 6.60707 13.8315 6.77152C13.9414 6.93597 14 7.12931 14 7.32709C14 7.59231 13.8947 7.84666 13.7071 8.0342C13.5196 8.22174 13.2652 8.32709 13 8.32709Z"
+                            fill="#6F42C1"
+                          />
+                        </svg>
+
+                        <p>${each.forks}</p>
+                      </div>
+                      <div class="star">
+                        <svg
+                          width="22"
+                          height="22"
+                          viewBox="0 0 22 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12.6643 2.69529C12.1405 1.08299 9.85952 1.083 9.33565 2.69529L7.81705 7.36905C7.78359 7.47205 7.6876 7.5418 7.57929 7.5418H2.66501C0.96974 7.5418 0.264883 9.71112 1.63638 10.7076L5.61212 13.5961C5.69974 13.6598 5.73641 13.7726 5.70294 13.8756L4.18434 18.5494C3.66047 20.1617 5.50582 21.5024 6.87732 20.5059L10.8531 17.6174C10.9407 17.5537 11.0593 17.5537 11.1469 17.6174L15.1227 20.5059C16.4942 21.5024 18.3395 20.1617 17.8157 18.5494L16.2971 13.8756C16.2636 13.7726 16.3003 13.6598 16.3879 13.5961L20.3636 10.7076C21.7351 9.71112 21.0303 7.5418 19.335 7.5418H14.4207C14.3124 7.5418 14.2164 7.47206 14.1829 7.36905L12.6643 2.69529Z"
+                            stroke="#6F42C1"
+                            stroke-width="1.5"
+                          />
+                        </svg>
+
+                        <p>${each.stargazers_count}</p>
+                      </div>
+                    </div>
+                    <a href="${each.html_url}">View Project</a>
+                  </div>
+                  <div class="right d-none d-md-flex">
+                    <div class="share">
+                      <svg
+                        width="16"
+                        height="21"
+                        viewBox="0 0 16 21"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13 4.32709C12.3065 4.32755 11.6345 4.56829 11.0985 5.00833C10.5625 5.44838 10.1954 6.06055 10.0599 6.7407C9.92431 7.42085 10.0286 8.12696 10.355 8.73889C10.6813 9.35083 11.2097 9.83078 11.85 10.0971C11.6978 10.462 11.4408 10.7737 11.1115 10.9926C10.7822 11.2115 10.3954 11.3279 10 11.3271H6.00001C5.29505 11.33 4.604 11.5235 4.00001 11.8871V6.14709C4.66722 5.9112 5.22956 5.44702 5.58764 4.83661C5.94571 4.2262 6.07647 3.50885 5.9568 2.81136C5.83713 2.11386 5.47473 1.48113 4.93367 1.02499C4.3926 0.568844 3.70769 0.318665 3.00001 0.318665C2.29232 0.318665 1.60741 0.568844 1.06635 1.02499C0.525277 1.48113 0.162882 2.11386 0.0432106 2.81136C-0.0764607 3.50885 0.0542974 4.2262 0.412375 4.83661C0.770452 5.44702 1.33279 5.9112 2.00001 6.14709V14.5071C1.34099 14.7441 0.785665 15.2042 0.430256 15.8076C0.074848 16.4111 -0.0582406 17.1199 0.0540553 17.8111C0.166351 18.5024 0.516954 19.1326 1.0451 19.5925C1.57325 20.0524 2.24567 20.3131 2.94581 20.3293C3.64596 20.3455 4.32971 20.1162 4.87857 19.6813C5.42744 19.2463 5.80683 18.633 5.95099 17.9476C6.09515 17.2623 5.995 16.5481 5.6679 15.9289C5.34079 15.3096 4.80735 14.8243 4.16001 14.5571C4.31158 14.1937 4.56704 13.8832 4.89436 13.6644C5.22168 13.4456 5.60629 13.3282 6.00001 13.3271H10C10.9148 13.3269 11.802 13.0131 12.5135 12.4381C13.225 11.8631 13.7179 11.0615 13.91 10.1671C14.5786 9.93992 15.1456 9.4842 15.5113 8.88014C15.8769 8.27608 16.0178 7.56239 15.9091 6.86469C15.8004 6.167 15.449 5.53001 14.9169 5.06584C14.3848 4.60167 13.706 4.34007 13 4.32709ZM3.00001 2.32709C3.19779 2.32709 3.39113 2.38574 3.55558 2.49562C3.72003 2.6055 3.8482 2.76168 3.92389 2.94441C3.99957 3.12713 4.01938 3.3282 3.98079 3.52218C3.94221 3.71616 3.84697 3.89435 3.70711 4.0342C3.56726 4.17405 3.38908 4.26929 3.1951 4.30788C3.00112 4.34646 2.80005 4.32666 2.61732 4.25097C2.4346 4.17528 2.27842 4.04711 2.16854 3.88266C2.05866 3.71821 2.00001 3.52487 2.00001 3.32709C2.00001 3.06188 2.10536 2.80752 2.2929 2.61999C2.48044 2.43245 2.73479 2.32709 3.00001 2.32709ZM3.00001 18.3271C2.80222 18.3271 2.60889 18.2684 2.44444 18.1586C2.27999 18.0487 2.15181 17.8925 2.07613 17.7098C2.00044 17.5271 1.98064 17.326 2.01922 17.132C2.05781 16.938 2.15305 16.7598 2.2929 16.62C2.43275 16.4801 2.61093 16.3849 2.80492 16.3463C2.9989 16.3077 3.19996 16.3275 3.38269 16.4032C3.56542 16.4789 3.72159 16.6071 3.83148 16.7715C3.94136 16.936 4.00001 17.1293 4.00001 17.3271C4.00001 17.5923 3.89465 17.8467 3.70711 18.0342C3.51958 18.2217 3.26522 18.3271 3.00001 18.3271ZM13 8.32709C12.8022 8.32709 12.6089 8.26844 12.4444 8.15856C12.28 8.04868 12.1518 7.8925 12.0761 7.70977C12.0004 7.52705 11.9806 7.32598 12.0192 7.132C12.0578 6.93802 12.153 6.75984 12.2929 6.61998C12.4328 6.48013 12.6109 6.38489 12.8049 6.34631C12.9989 6.30772 13.2 6.32753 13.3827 6.40321C13.5654 6.4789 13.7216 6.60707 13.8315 6.77152C13.9414 6.93597 14 7.12931 14 7.32709C14 7.59231 13.8947 7.84666 13.7071 8.0342C13.5196 8.22174 13.2652 8.32709 13 8.32709Z"
+                          fill="#6F42C1"
+                        />
+                      </svg>
+
+                      <p>${each.forks}</p>
+                    </div>
+                    <div class="star">
+                      <svg
+                        width="22"
+                        height="22"
+                        viewBox="0 0 22 22"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12.6643 2.69529C12.1405 1.08299 9.85952 1.083 9.33565 2.69529L7.81705 7.36905C7.78359 7.47205 7.6876 7.5418 7.57929 7.5418H2.66501C0.96974 7.5418 0.264883 9.71112 1.63638 10.7076L5.61212 13.5961C5.69974 13.6598 5.73641 13.7726 5.70294 13.8756L4.18434 18.5494C3.66047 20.1617 5.50582 21.5024 6.87732 20.5059L10.8531 17.6174C10.9407 17.5537 11.0593 17.5537 11.1469 17.6174L15.1227 20.5059C16.4942 21.5024 18.3395 20.1617 17.8157 18.5494L16.2971 13.8756C16.2636 13.7726 16.3003 13.6598 16.3879 13.5961L20.3636 10.7076C21.7351 9.71112 21.0303 7.5418 19.335 7.5418H14.4207C14.3124 7.5418 14.2164 7.47206 14.1829 7.36905L12.6643 2.69529Z"
+                          stroke="#6F42C1"
+                          stroke-width="1.5"
+                        />
+                      </svg>
+
+                      <p>${each.stargazers_count}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            `;
+          });
+        });
+    </script>
+    <script src="./js/swiper.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        // scrollbar: {
+        //   el: ".swiper-scrollbar",
+        // },
+      });
+    </script>
+  </body>
+</html>
