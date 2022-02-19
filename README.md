@@ -1,6 +1,6 @@
 # Choice Coin V2 Website.
 
-![image](https://gateway.pinata.cloud/ipfs/QmdagXgG6f6FNFJEy7HtpR4MJYaUBjBNbJLzz5yQQwp8ac)
+![image](https://github.com/Samuellyworld/ChoiceCoin.github.io/blob/master/participate.gif)
 
 Contents
 =================
@@ -18,7 +18,7 @@ About
 
 Choice Coin is an Algorand Standard Asset that powers Decentralized Decisions, a voting and governance software built directly on the Algorand Blockchain. Decentralized Decisions enables organizations to make governance decisions in an open and decentralized manner. For the Choice Coin DAO, Decentralized Decisions leverages Proof-of-Participation as a governance mechanism, allowing voters to have a larger say in direct proportion to their contribution to the network.
 
-![image](https://gateway.pinata.cloud/ipfs/QmdhQvkXhc3GeDbeun6skKeH413NumjaAC89UevpX4y66Q)
+![image](https://github.com/Samuellyworld/ChoiceCoin.github.io/blob/master/header.gif)
 
 Research
 ============
