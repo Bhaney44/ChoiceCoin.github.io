@@ -44,16 +44,16 @@ Proposal
 
 In anticipation of our official governance launching in December, the Choice Coin Network is glad to announce a formal way for participants to submit proposals for the improvement of the ecosystem. This form will enable anyone to submit a proposal to work on Choice Coin, regardless of their previous participation within the ecosystem. All serious requests will recieve feedback from Choice Leaders before eventually being put up to vote by the general community.
 
-Join the Choice Coin [Discord](https://discord.com/invite/EHBt3KpS) here. Then, fill out the form [here](https://docs.google.com/forms/d/e/1FAIpQLSf9kSjG9bX-gxPSPf_OQFLAhzWzeRaPIQO1J4Wz-OmzVQPa-A/viewform) with the specific details surrounding your proposal. Finally, wait to recieve feedback from Choice Leaders on how you can improve your proposal.
+Join the Choice Coin [Discord](https://discord.com/invite/EHBt3KpS) here. Then, fill out the [form](https://docs.google.com/forms/d/e/1FAIpQLSf9kSjG9bX-gxPSPf_OQFLAhzWzeRaPIQO1J4Wz-OmzVQPa-A/viewform) with the specific details surrounding your proposal. Finally, wait to recieve feedback from Choice Leaders on how you can improve your proposal.
 
 Tutorials
 ============
 
 Building a decentralized voting platform with choice coin, you can check various publications on algorand deveoper blog.
 
-* Python Tutorial by  Brian [Haney](https://developer.algorand.org/tutorials/voting-using-choice-coin/) and [PrettyIrrelevant](https://developer.algorand.org/solutions/build-a-decentralized-voting-application-with-choice-and-algorand-python-sdk/) 
+* Python Tutorial by  [Brian-Haney](https://developer.algorand.org/tutorials/voting-using-choice-coin/) and [PrettyIrrelevant](https://developer.algorand.org/solutions/build-a-decentralized-voting-application-with-choice-and-algorand-python-sdk/) 
 
-* JavaScript Tutorial by Samuel [Aspirin](https://developer.algorand.org/tutorials/build-a-decentralized-voting-app-with-choice-coin-and-javascript-sdk/) and [Farsh]()
+* JavaScript Tutorial by [Samuel-Aspirin](https://developer.algorand.org/tutorials/build-a-decentralized-voting-app-with-choice-coin-and-javascript-sdk/) and [Farsh]()
 
 Contributions in other language are welcome.
 
