@@ -35,10 +35,24 @@
 .inner-wrapper h2 {
     font-size: 40px !important; 
 }
+.security h2 {
+    font-weight: 900;
+    font-size: 38px;
+    color: #443f4c;
+    margin-bottom: 1em;
+    margin: 30px;
+}
+
+.security p {
+    margin: 20px;
+}
 
 @media screen and (max-width: 600px) {
   .inner-wrapper h2 {
       font-size: 25px !important;
+  }
+  .security h2 {
+      font-size: 24px;
   }
   #img {
       width: 35px !important ;
@@ -55,6 +69,10 @@
     .contributions .each-card h3 {
         font-size: 27px !important;
     }
+    .security h2 {
+        font-size: 24px;
+    }
+
 
 }
 
