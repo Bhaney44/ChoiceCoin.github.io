@@ -39,12 +39,16 @@
     font-weight: 900;
     font-size: 38px;
     color: #443f4c;
-    margin-bottom: 1em;
-    margin: 30px;
+    margin-bottom: 20px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .security p {
-    margin: 20px;
+    margin-left: 60px;
+ 
 }
 
 @media screen and (max-width: 600px) {
@@ -71,9 +75,19 @@
     }
     .security h2 {
         font-size: 24px;
+      
     }
+
+       .security p {
+           margin-left: 20px;
+       }
 
 
 }
 
 
+@media (min-width: 1100px){
+    .security p {
+        margin-left: 230px;
+    }
+}
