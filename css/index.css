@@ -50,12 +50,12 @@
     margin-left: 60px;
  
 }
-.terms {
+.terms,a {
     color: lightblue;
     text-decoration: none;
     outline: none;;
 }
-.terms:hover {
+.terms:hover, a:hover {
     color: rgb(66, 127, 184);
     text-decoration: none;
     outline: none;;
