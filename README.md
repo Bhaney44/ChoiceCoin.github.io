@@ -51,15 +51,15 @@ Tutorials
 
 Building a decentralized voting platform with choice coin, you can check various publications on algorand deveoper blog.
 
-* Python Tutorial by  [Brian-Haney](https://developer.algorand.org/tutorials/voting-using-choice-coin/) and [PrettyIrrelevant](https://developer.algorand.org/solutions/build-a-decentralized-voting-application-with-choice-and-algorand-python-sdk/) 
+* Python Tutorial by  [Brian Haney](https://developer.algorand.org/tutorials/voting-using-choice-coin/) and [PrettyIrrelevant](https://developer.algorand.org/solutions/build-a-decentralized-voting-application-with-choice-and-algorand-python-sdk/) 
 
-* JavaScript Tutorial by [Samuel-Aspirin](https://developer.algorand.org/tutorials/build-a-decentralized-voting-app-with-choice-coin-and-javascript-sdk/) and [Farsh]()
+* JavaScript Tutorial by [Samuel Aspirin](https://developer.algorand.org/tutorials/build-a-decentralized-voting-app-with-choice-coin-and-javascript-sdk/) and [Farsh](https://developer.algorand.org/tutorials/build-a-decentralized-voting-app-with-choice-coin-and-javascript-sdk/)
 
 Contributions in other language are welcome.
 
 License
 ============
-[Apache](https://github.com/ChoiceCoin/ChoiceCoin.github.io/blob/master/License.txt)
+* [Apache](https://github.com/ChoiceCoin/ChoiceCoin.github.io/blob/master/License.txt)
 
 
 
